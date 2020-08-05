@@ -78,6 +78,7 @@ def all_holidays_with_bbq(holiday_hash)
         value.each do |food|
           if value == "BBQ"
             puts supply
+          end
     end
   end
 end
