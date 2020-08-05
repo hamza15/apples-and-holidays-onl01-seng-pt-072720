@@ -91,3 +91,5 @@ holiday_hash = {
       :memorial_day => ["BBQ"]
     }
   }
+
+all_holidays_with_bbq(holiday_hash)
