@@ -75,6 +75,9 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash.each do |season, holiday|
     holiday.each do |supply, value|
         puts "#{supply}: #{value}"
+        value.each do |food|
+          if value == "BBQ"
+            puts holiday
     end
   end
 end
