@@ -77,7 +77,7 @@ def all_holidays_with_bbq(holiday_hash)
         puts "#{supply}: #{value}"
         value.each do |food|
           if value == "BBQ"
-            puts holiday
+            puts supply
     end
   end
 end
